@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'landing.dart';
 import 'loadingData.dart';
 import 'infopage.dart';
+import 'fail.dart';
 
 void main() => runApp(MyApp());
 

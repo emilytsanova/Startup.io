@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'choice.dart';
+import 'fail.dart';
 import 'dart:async';
 
 class LoadingData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 10), () {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => ChoicePage()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => FailPage()));
       //TODO change ChoicePage to Fail page
     });
     return Scaffold(
       body: Container(
-          color: Colors.black,
+          color: Colors.white,
           //width: 300.0,
           //height: 300.0,
           child: Column(

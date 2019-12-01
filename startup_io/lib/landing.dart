@@ -35,7 +35,7 @@ class _LandingPageState extends State<LandingPage> {
             SizedBox(
               width: 250.0,
               child: TypewriterAnimatedTextKit(
-                isRepeatingAnimation: false,
+                isRepeatingAnimation: true,
                 onTap: () {
                     print("Tap Event");
                   },
