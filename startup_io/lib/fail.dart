@@ -7,12 +7,12 @@ class FailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.symmetric(vertical: 30, horizontal: 30),
+        padding: EdgeInsets.symmetric(vertical: 100, horizontal: 30),
           //color: Colors.white,
           //width: MaxColumnWidt,
           //height: 300.0,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               SizedBox(
                 height: 200,
