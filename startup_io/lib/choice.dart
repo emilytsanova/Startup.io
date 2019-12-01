@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:shimmer/shimmer.dart';
+import 'fail.dart';
 
 
 class ChoicePage extends StatefulWidget {
@@ -75,7 +76,10 @@ class _ChoicePageState extends State<ChoicePage> {
                     ),
                     
                   ),
-                  //onPressed: (){},
+                  onPressed: (){Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => FailPage()));
+                        },
                 ),
                 FlatButton(
                   child: SizedBox(
