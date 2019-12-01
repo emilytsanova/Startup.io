@@ -29,7 +29,7 @@ class _InfoPageState extends State<InfoPage> {
             return CustomCard(index+1, widget.type);
           }),
           floatingActionButton: FloatingActionButton.extended(
-            label: Text(" Take The Plunge"),
+            label: Text("Take The Plunge"),
             icon: Icon(FontAwesomeIcons.tint),
             backgroundColor: Colors.tealAccent[400],
             splashColor: Colors.white12,

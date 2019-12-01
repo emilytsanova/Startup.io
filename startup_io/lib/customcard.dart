@@ -86,8 +86,7 @@ const CustomCard(this.num, this.type);
   }
 
   String _getRandomDesc(){
-    List ai = ["Revolutionizing the world one if statement a time", "Paving the way though if statements",
-      "", ""];
+    List ai = ["Revolutionizing the world one if statement a time", "Paving the way though if statements"];
     List blockchain = ["Revolutionizing the world of finance though Blockchain", "Using Blockchain to free your money",
       "Liberating your money through the power of bloclchain"];
     List fintech = ["Helping your money walk further", "In for a penny, in for a pound",
