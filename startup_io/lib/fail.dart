@@ -1,18 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'fail3.dart';
+import 'dart:async';
+
+
 
 class FailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Timer(Duration(seconds: 8), () {
+      Navigator.push(context, MaterialPageRoute(builder: (context) => FailureExplanationPage()));
+    });
     return Scaffold(
       body: Padding(
         padding: EdgeInsets.symmetric(vertical: 100, horizontal: 30),
-          //color: Colors.white,
-          //width: MaxColumnWidt,
-          //height: 300.0,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(
                 height: 200,
@@ -27,7 +31,7 @@ class FailPage extends StatelessWidget {
                     TextStyle(
                         fontSize: 55.0,
                         fontFamily: "Canterbury",
-                      color: Colors.redAccent[100],
+                      color: Colors.redAccent[200],
                     ),
                     textAlign: TextAlign.center,
                     alignment: AlignmentDirectional
@@ -38,15 +42,13 @@ class FailPage extends StatelessWidget {
                 child: FadeAnimatedTextKit(
                     isRepeatingAnimation: false,
                     text: [
-                      //"(☞ﾟヮﾟ)☞ ",
-                      //"☜(ﾟヮﾟ☜) ",
                       "", "",
-                      "(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜) "
+                      "(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)"
                     ],
                     textStyle: TextStyle(
                         fontSize: 30.0,
                         fontFamily: "Canterbury",
-                      color: Colors.redAccent[100],
+                      color: Colors.redAccent[200],
                     ),
                     textAlign: TextAlign.center,
                     alignment: AlignmentDirectional
@@ -58,6 +60,4 @@ class FailPage extends StatelessWidget {
       ),
     );
   }
-  // TODO: GIVE INFO ABOUT HOW MANY START UPS FAIL AND WHY
-  // TODO: A BUTTON TO SEND YOU BACK TO THE START
 }

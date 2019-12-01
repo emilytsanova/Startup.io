@@ -33,7 +33,7 @@ const CustomCard(this.num, this.type);
   }
 
   String _getRandomName(){
-    List ai = ["Smartly", "TooDeep.yo";
+    List ai = ["Smartly", "TooDeep.yo"];
     List blockchain = ["BreakingBlocks", "Blockr", "", ""];
     List fintech = ["Fin.ly", "Capital Money", "American Slow"];
     List cybersec = ["Defence.io", "Safety.io", "BuildTheWall.io"];
@@ -50,7 +50,7 @@ const CustomCard(this.num, this.type);
         break;
       case 4: return cybersec[random.nextInt(cybersec.length)];
         break;
-      case 5: return socialmedia[random.nextInt(socialmedia.length)];C
+      case 5: return socialmedia[random.nextInt(socialmedia.length)];
         break;
       case 6: return shrug[random.nextInt(shrug.length)];
         break;

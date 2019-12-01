@@ -3,6 +3,7 @@ import 'landing.dart';
 import 'loadingData.dart';
 import 'infopage.dart';
 import 'fail.dart';
+import 'fail2.dart';
 
 void main() => runApp(MyApp());
 

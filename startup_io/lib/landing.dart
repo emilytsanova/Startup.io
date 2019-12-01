@@ -54,7 +54,7 @@ class _LandingPageState extends State<LandingPage> {
             FlatButton(
               color: Colors.black12,
               splashColor: Colors.white54,
-              child: Text('Free Yourself', 
+              child: Text('Free Yourself',
                           style:TextStyle(
                             color: Colors.black,
                             fontSize: 16,
@@ -64,7 +64,7 @@ class _LandingPageState extends State<LandingPage> {
               onPressed: (){
                           Navigator.push(
                           context, 
-                          MaterialPageRoute(builder: (context) => ChoicePage()));
+                          MaterialPageRoute(builder: (context) => new ChoicePage()));
                         },
             ),
           ],

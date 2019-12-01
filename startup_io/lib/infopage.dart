@@ -8,6 +8,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'loadingData.dart';
 
 
+
 class InfoPage extends StatefulWidget {
   final int type;
   InfoPage(this.type);
@@ -30,7 +31,7 @@ class _InfoPageState extends State<InfoPage> {
           floatingActionButton: FloatingActionButton.extended(
             label: Text(" Take The Plunge"),
             icon: Icon(FontAwesomeIcons.tint),
-            backgroundColor: Colors.tealAccent[100],
+            backgroundColor: Colors.tealAccent[400],
             splashColor: Colors.white12,
             onPressed : (){
               Navigator.push(context, MaterialPageRoute(builder: (context) => LoadingData()));

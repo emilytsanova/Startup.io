@@ -43,12 +43,14 @@ class _ChoicePageState extends State<ChoicePage> {
             SizedBox(
               width: 250.0,
               child: TypewriterAnimatedTextKit(
-                isRepeatingAnimation: false,
+                  duration: Duration(milliseconds: 5000),
+
+                  isRepeatingAnimation: false,
                 text: [
                   "Where's Your Passion?",
                 ],
                 textStyle: TextStyle(
-                  color: Colors.tealAccent[100],
+                  color: Colors.tealAccent[400],
                     fontSize: 30.0,
                     fontFamily: "Agne",
                 ),
@@ -65,7 +67,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.teal[200],
+                        color: Colors.tealAccent[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("A.I.", style: TextStyle(
@@ -91,7 +93,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.green[200],
+                        color: Colors.green[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("Bitcoin", style: TextStyle(
@@ -121,7 +123,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.green[200],
+                        color: Colors.green[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("FinTech", style: TextStyle(
@@ -148,7 +150,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.teal[200],
+                        color: Colors.tealAccent[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("CyberSec", style: TextStyle(
@@ -180,7 +182,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.teal[200],
+                        color: Colors.tealAccent[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("Social Media", style: TextStyle(
@@ -207,7 +209,7 @@ class _ChoicePageState extends State<ChoicePage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.green[200],
+                        color: Colors.green[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(child: Text("¯\\_(ツ)_/¯", style: TextStyle(
@@ -272,11 +274,12 @@ class _QuestionTwoPageState extends State<QuestionTwoPage> {
               width: 250.0,
               child: TypewriterAnimatedTextKit(
                 isRepeatingAnimation: false,
+                  duration: Duration(milliseconds: 5000),
                 text: [
                   "What's Your Favourite Colour?",
                 ],
                 textStyle: TextStyle(
-                  color: Colors.tealAccent[100],
+                  color: Colors.tealAccent[400],
                     fontSize: 28.0,
                     fontFamily: "Agne",
                 ),
@@ -293,7 +296,7 @@ class _QuestionTwoPageState extends State<QuestionTwoPage> {
                     width: 125,
                     child: DecoratedBox(
                       decoration: BoxDecoration(
-                        color: Colors.teal[200],
+                        color: Colors.tealAccent[400],
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Center(
@@ -303,7 +306,7 @@ class _QuestionTwoPageState extends State<QuestionTwoPage> {
                     
                   ),
                   onPressed: (){
-                    colour = Colors.tealAccent[200];
+                    colour = Colors.tealAccent[400];
                     Navigator.push(
                           context, 
                           MaterialPageRoute(builder: (context) => QuestionThreePage()));
@@ -473,14 +476,16 @@ class _QuestionThreePageState extends State<QuestionThreePage> {
               width: 250.0,
               child: TypewriterAnimatedTextKit(
                 isRepeatingAnimation: false,
-                onTap: () {
+                  duration: Duration(milliseconds: 5000),
+
+                  onTap: () {
                     print("Tap Event");
                   },
                 text: [
-                  "Which Entrepreneur Do You Relate To the Most",
+                  "Which Entrepreneur You Relate the Most To?",
                 ],
                 textStyle: TextStyle(
-                  color: Colors.tealAccent[100],
+                  color: Colors.tealAccent[400],
                     fontSize: 22.0,
                     fontFamily: "Agne",
                 ),
@@ -693,12 +698,14 @@ class _QuestionFourPageState extends State<QuestionFourPage> {
             SizedBox(
               width: 250.0,
               child: TypewriterAnimatedTextKit(
-                isRepeatingAnimation: false,
+                  duration: Duration(milliseconds: 5000),
+
+                  isRepeatingAnimation: false,
                 text: [
                   "How Risky Are You?",
                 ],
                 textStyle: TextStyle(
-                  color: Colors.tealAccent[100],
+                  color: Colors.tealAccent[400],
                     fontSize: 30.0,
                     fontFamily: "Agne",
                 ),
@@ -888,12 +895,14 @@ class _QuestionFivePageState extends State<QuestionFivePage> {
             SizedBox(
               width: 250.0,
               child: TypewriterAnimatedTextKit(
-                isRepeatingAnimation: false,
+                  duration: Duration(milliseconds: 5000),
+
+                  isRepeatingAnimation: false,
                 text: [
                   "How big is your network?",
                 ],
                 textStyle: TextStyle(
-                  color: Colors.tealAccent[100],
+                  color: Colors.tealAccent[400],
                     fontSize: 30.0,
                     fontFamily: "Agne",
                 ),

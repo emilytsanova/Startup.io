@@ -3,13 +3,13 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'fail.dart';
 import 'dart:async';
+import 'fail2.dart';
 
 class LoadingData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 10), () {
+    Timer(Duration(seconds: 5), () {
       Navigator.push(context, MaterialPageRoute(builder: (context) => FailPage()));
-      //TODO change ChoicePage to Fail page
     });
     return Scaffold(
       body: Container(
@@ -43,7 +43,7 @@ class LoadingData extends StatelessWidget {
                     textStyle: TextStyle(
                         fontSize: 30.0,
                         fontFamily: "Canterbury",
-                      color: Colors.tealAccent[100],
+                      color: Colors.tealAccent[400],
                     ),
                     textAlign: TextAlign.center,
                     alignment: AlignmentDirectional
