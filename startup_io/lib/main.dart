@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'landing.dart';
 import 'loadingData.dart';
+import 'infopage.dart';
 
 void main() => runApp(MyApp());
 

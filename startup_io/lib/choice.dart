@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:shimmer/shimmer.dart';
 import 'fail.dart';
+import 'infopage.dart';
 
 
 class ChoicePage extends StatefulWidget {
@@ -78,7 +79,7 @@ class _ChoicePageState extends State<ChoicePage> {
                   ),
                   onPressed: (){Navigator.push(
                           context, 
-                          MaterialPageRoute(builder: (context) => FailPage()));
+                          MaterialPageRoute(builder: (context) => InfoPage(1)));
                         },
                 ),
                 FlatButton(
@@ -99,7 +100,11 @@ class _ChoicePageState extends State<ChoicePage> {
                     ),)
                     ),
                   ),
-                  //onPressed: (){},
+                  onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => InfoPage(2)));
+                        },
                 ),
               ],
             ),
@@ -126,7 +131,11 @@ class _ChoicePageState extends State<ChoicePage> {
                     
                     
                   ),
-                  //onPressed: (){},
+                  onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => InfoPage(3)));
+                        },
                 ),
                 FlatButton(
                   child: SizedBox(
@@ -148,7 +157,11 @@ class _ChoicePageState extends State<ChoicePage> {
                     
                     
                   ),
-                  //onPressed: (){},
+                  onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => InfoPage(4)));
+                        },
                 ),
               ],
             ),
@@ -175,7 +188,11 @@ class _ChoicePageState extends State<ChoicePage> {
                     
                     
                   ),
-                  //onPressed: (){},
+                  onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => InfoPage(5)));
+                        },
                 ),
                 FlatButton(
                   child: SizedBox(
@@ -197,7 +214,11 @@ class _ChoicePageState extends State<ChoicePage> {
                     
                     
                   ),
-                  //onPressed: (){},
+                  onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => InfoPage(6)));
+                        },
                 ),
               ],
             ),
