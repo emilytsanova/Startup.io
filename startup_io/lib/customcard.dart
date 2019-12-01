@@ -33,12 +33,12 @@ const CustomCard(this.num, this.type);
   }
 
   String _getRandomName(){
-    List ai = ["", "", "", ""];
-    List blockchain = ["", "", "", ""];
-    List fintech = ["", "", "", ""];
-    List cybersec = ["", "", "", ""];
-    List socialmedia = ["", "", "", ""];
-    List shrug = ["", "", "", ""];
+    List ai = ["Smartly", "TooDeep.yo";
+    List blockchain = ["BreakingBlocks", "Blockr", "", ""];
+    List fintech = ["Fin.ly", "Capital Money", "American Slow"];
+    List cybersec = ["Defence.io", "Safety.io", "BuildTheWall.io"];
+    List socialmedia = ["Circle", "Oval", "Elipse", "Semi-Loop"];
+    List shrug = ["Potato Inc", "Sleep", "Maybe", "Eh"];
 
     Random random = new Random();
     switch (type) {
@@ -50,7 +50,7 @@ const CustomCard(this.num, this.type);
         break;
       case 4: return cybersec[random.nextInt(cybersec.length)];
         break;
-      case 5: return socialmedia[random.nextInt(socialmedia.length)];
+      case 5: return socialmedia[random.nextInt(socialmedia.length)];C
         break;
       case 6: return shrug[random.nextInt(shrug.length)];
         break;
@@ -59,12 +59,13 @@ const CustomCard(this.num, this.type);
   }
 
   String _getRandomSlogan(){
-    List ai = ["", "", "", ""];
-    List blockchain = ["", "", "", ""];
-    List fintech = ["", "", "", ""];
-    List cybersec = ["", "", "", ""];
-    List socialmedia = ["", "", "", ""];
-    List shrug = ["", "", "", ""];
+    List ai = ["Don't learn without it", "Don't smart without it"];
+    List blockchain = ["Don't go further without", "Don't trust without it"];
+    List fintech = ["Don't be debt without it", "Don't go poor without it"];
+    List cybersec = ["Live in fear wihtout it"];
+    List socialmedia = ["Don't sociallize without it", "Don't be social without it",
+      "Don't find friends without it"];
+    List shrug = ["Don't die without it", "Don't ???? without", "Don't", "Why would wihthout?"];
 
     Random random = new Random();
     switch (type) {
@@ -85,12 +86,16 @@ const CustomCard(this.num, this.type);
   }
 
   String _getRandomDesc(){
-    List ai = ["", "", "", ""];
-    List blockchain = ["", "", "", ""];
-    List fintech = ["", "", "", ""];
-    List cybersec = ["", "", "", ""];
-    List socialmedia = ["", "", "", ""];
-    List shrug = ["", "", "", ""];
+    List ai = ["Revolutionizing the world one if statement a time", "Paving the way though if statements",
+      "", ""];
+    List blockchain = ["Revolutionizing the world of finance though Blockchain", "Using Blockchain to free your money",
+      "Liberating your money through the power of bloclchain"];
+    List fintech = ["Helping your money walk further", "In for a penny, in for a pound",
+      "You want debt, we'll provide it", "You want money, we have it"];
+    List cybersec = ["Never fear your data will be lost", "Your privacy is your privacy with our help",
+      "We keep you privates private", "We only givr you the right amount of exposure"];
+    List socialmedia = ["Keeping friends together through thick and thin", "Merging lives together", "Keep Humanity close"];
+    List shrug = ["Never wonder what to do ever again", "Revolutionizing the meaning of never being bored"];
 
     Random random = new Random();
     switch (type) {

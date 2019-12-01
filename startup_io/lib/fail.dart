@@ -46,7 +46,7 @@ class FailPage extends StatelessWidget {
                     textStyle: TextStyle(
                         fontSize: 30.0,
                         fontFamily: "Canterbury",
-                      color: Colors.tealAccent[100],
+                      color: Colors.redAccent[100],
                     ),
                     textAlign: TextAlign.center,
                     alignment: AlignmentDirectional
@@ -58,4 +58,6 @@ class FailPage extends StatelessWidget {
       ),
     );
   }
+  // TODO: GIVE INFO ABOUT HOW MANY START UPS FAIL AND WHY
+  // TODO: A BUTTON TO SEND YOU BACK TO THE START
 }
