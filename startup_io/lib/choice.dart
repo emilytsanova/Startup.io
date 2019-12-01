@@ -26,11 +26,11 @@ class _ChoicePageState extends State<ChoicePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black26,
+      backgroundColor: Colors.white,
       body: Center(
         child: 
         Padding(
-          padding:EdgeInsets.symmetric(horizontal: 30, vertical: 100),
+          padding:EdgeInsets.symmetric(horizontal: 15, vertical: 100),
           child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
@@ -47,7 +47,7 @@ class _ChoicePageState extends State<ChoicePage> {
                 textStyle: TextStyle(
                   color: Colors.tealAccent[100],
                     fontSize: 30.0,
-                    fontFamily: "Agne"
+                    fontFamily: "Agne",
                 ),
                 textAlign: TextAlign.center,
                 alignment: AlignmentDirectional.topStart // or Alignment.topLeft
@@ -68,6 +68,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       child: Center(child: Text("A.I.", style: TextStyle(
                         color: Colors.white,
                         fontSize: 17,
+                      fontFamily: "Agne", 
                       ),
                         textAlign: TextAlign.center,
                       ),)
@@ -88,6 +89,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       child: Center(child: Text("Bitcoin", style: TextStyle(
                       color: Colors.white,
                       fontSize: 17,
+                    fontFamily: "Agne",
                     ),
                       textAlign: TextAlign.center,
                     ),)
@@ -112,6 +114,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       child: Center(child: Text("FinTech", style: TextStyle(
                       color: Colors.white,
                       fontSize: 17,
+                    fontFamily: "Agne",
                     ),
                       textAlign: TextAlign.center,
                     ),)
@@ -132,6 +135,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       ),
                       child: Center(child: Text("CyberSec", style: TextStyle(
                       color: Colors.white,
+                    fontFamily: "Agne",
                       fontSize: 16,
                     ),
                       textAlign: TextAlign.center,
@@ -159,6 +163,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       child: Center(child: Text("Social Media", style: TextStyle(
                       color: Colors.white,
                       fontSize: 17,
+                    fontFamily: "Agne",
                     ),
                       textAlign: TextAlign.center,
                     ),)
@@ -180,6 +185,7 @@ class _ChoicePageState extends State<ChoicePage> {
                       child: Center(child: Text("¯\\_(ツ)_/¯", style: TextStyle(
                       color: Colors.white,
                       fontSize: 17,
+                      fontFamily: "Agne",
                       ),
                       textAlign: TextAlign.center,
                     ),)

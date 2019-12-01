@@ -58,6 +58,7 @@ class _LandingPageState extends State<LandingPage> {
                           style:TextStyle(
                             color: Colors.black,
                             fontSize: 16,
+                            fontFamily: "Agne"
                           )
                         ),
               onPressed: (){
