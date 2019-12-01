@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:shimmer/shimmer.dart';
+import 'choice.dart';
 
 
 class LandingPage extends StatefulWidget {
@@ -34,6 +35,7 @@ class _LandingPageState extends State<LandingPage> {
             SizedBox(
               width: 250.0,
               child: TypewriterAnimatedTextKit(
+                isRepeatingAnimation: false,
                 onTap: () {
                     print("Tap Event");
                   },
@@ -48,8 +50,7 @@ class _LandingPageState extends State<LandingPage> {
                 alignment: AlignmentDirectional.topStart // or Alignment.topLeft
               ),
             ),
-
-           
+            Text(""),
             FlatButton(
               color: Colors.black12,
               splashColor: Colors.white54,
@@ -59,7 +60,11 @@ class _LandingPageState extends State<LandingPage> {
                             fontSize: 16,
                           )
                         ),
-              onPressed: (){},
+              onPressed: (){
+                          Navigator.push(
+                          context, 
+                          MaterialPageRoute(builder: (context) => ChoicePage()));
+                        },
             ),
           ],
         ),
