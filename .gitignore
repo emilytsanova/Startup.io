@@ -266,3 +266,6 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.gitignore.io/api/dart,macos,flutter,windows,androidstudio
+startup.io/startup_io/.idea/libraries/Dart_SDK.xml
+*.xml
+*.sh
